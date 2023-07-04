@@ -7,8 +7,6 @@ from importlib.machinery import WindowsRegistryFinder
 from tkinter import *
 from tkinter import messagebox
 root=Tk()
-root.title("Tic Tac Toe")
-k=PhotoImage(file="icon ttt.png")
 root.iconphoto(True,k)
 root.geometry("235x300")
 clicked=True
